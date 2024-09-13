@@ -36,6 +36,7 @@ class PatientCard extends HTMLElement {
            <p>${this.raza}</p>
            <p>${this.date}</p>
            <p>${this.sintomas}</p>
+           <input type="checkbox" ${this.state ? "Pendiente" : ""} class="patient-checkbox">
 
 
         </li>

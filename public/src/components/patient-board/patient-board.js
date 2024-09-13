@@ -22,9 +22,10 @@ class PatientBoard extends HTMLElement {
            
             this.arrayPatient.push({nombre, especie, raza, date, sintomas, state: false})
 
-            this.addPatiente({nombre, especie, raza, date, sintomas, state: false})
+            this.addPatiente({nombre, especie, raza, date, sintomas, state: false});
 
-            form.reset()
+            patientForm.reset()
+
         })
     }
 
